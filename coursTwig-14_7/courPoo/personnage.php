@@ -7,8 +7,8 @@
 class Personnage
 {
   protected  $vie = 80;
-    private  $atk =20 ;
-   private $nom;
+    protected  $atk =20 ;
+   protected $nom;
 
     /**
      * @param int $vie
@@ -82,3 +82,5 @@ class Personnage
     }
 
 }
+
+
